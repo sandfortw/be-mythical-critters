@@ -18,7 +18,7 @@ describe('Medusa', function() {
     assert.equal(medusa.name, 'Bree');
   });
 
-  it.skip('should start with no statues', function() {
+  it('should start with no statues', function() {
     var medusa = new Medusa('Taytay');
     assert.equal(medusa.name, 'Taytay');
     assert.deepEqual(medusa.statues, []);
@@ -77,16 +77,16 @@ describe('Medusa', function() {
 
 describe('Person', function() {
 
-  it.skip('should be a function', function() {
+  it('should be a function', function() {
     assert.isFunction(Person);
   });
 
-  it.skip('should instantiate our good friend, Person', function() {
+  it('should instantiate our good friend, Person', function() {
     var person = new Person();
     assert.isObject(person);
   });
 
-  it.skip('should have a name', function() {
+  it('should have a name', function() {
     var person = new Person('Steve');
     assert.equal(person.name, 'Steve');
   });
