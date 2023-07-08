@@ -4,16 +4,16 @@ var Person = require('../exercises/person');
 
 describe('Medusa', function() {
 
-  it.skip('should be a function', function() {
+  it('should be a function', function() {
     assert.isFunction(Medusa);
   });
 
-  it.skip('should instantiate our good friend, Medusa', function() {
+  it('should instantiate our good friend, Medusa', function() {
     var medusa = new Medusa();
     assert.isObject(medusa);
   });
 
-  it.skip('should have a name', function() {
+  it('should have a name', function() {
     var medusa = new Medusa('Bree');
     assert.equal(medusa.name, 'Bree');
   });
