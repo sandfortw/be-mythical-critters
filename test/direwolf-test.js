@@ -51,20 +51,20 @@ describe('Direwolf', function() {
     assert.isObject(stark);
   });
 
-  it.skip('should have a name', function() {
+  it('should have a name', function() {
     var stark = new Stark('Bran');
 
     assert.equal(stark.name, 'Bran');
   });
 
-  it.skip('should have a default home of Winterfell', function() {
+  it('should have a default home of Winterfell', function() {
     var stark = new Stark('Bran');
 
     assert.equal(stark.name, 'Bran');
     assert.equal(stark.location, 'Winterfell');
   });
 
-  it.skip('should start with no Starks to protect', function() {
+  it('should start with no Starks to protect', function() {
     var direwolf = new Direwolf('Nymeria');
     var stark = new Stark('Arya');
 
