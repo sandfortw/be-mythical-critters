@@ -1,3 +1,15 @@
+===================
+# HEY!
+
+This was me learning some of the basics of writing classes and tests in Javascript. I am a Ruby developer, with a focus on the back end, but am trying 
+to branch out and become full-stack. This is basically the beginning of my JS journey. This was forked from a Repo made by people in the "Turing School of Software and Design" community. This is basically a filled out worksheet from gradeschool--if you want an empty workbook, fork the original repo here: https://github.com/turingschool-examples/be-mythical-critters
+
+I don't recommend the "extra" creatures except for "Witch", which I think is the most valuable one. Do "Witch!"
+
+
+
+The remainder of this readme is from the original:
+===================
 # Mythical Critters
 
 Each exercise emphasizes the fundamentals of object oriented programming in JavaScript.
