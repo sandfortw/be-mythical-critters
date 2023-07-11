@@ -60,6 +60,17 @@ describe('Witch', function () {
     assert.deepEqual(witch.recipes, [recipe1, recipe2]);
   });
 
+  it('should be able to get a list of recipe names', function(){
+    var witch = new Witch('Helga');
+    var ingredients = { 'swamp water': 5, 'frog eyes': 10, 'dragon scales': 6 };
+    var recipe1 = new Recipe('Shrinking Potion', ingredients);
+    var recipe2 = new Recipe('Plain Water', { 'water': 1 })
+    witch.learnRecipe(recipe1);
+    witch.learnRecipe(recipe2);
+    assert.deepEqual(witch.recipeNames(), [recipe1.name, recipe2.name]);
+
+  });
+
   it('should not learn multiple instances of recipe with same name', function () {
     var witch = new Witch('Helga');
     var recipe = new Recipe('Plain Water', { 'water': 1 })
